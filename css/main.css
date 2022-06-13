@@ -14,16 +14,10 @@ body {
 }
 header {
     position: relative;
-    background-image: url("../img/header.jpg");
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-.opacityBackground {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.5;
+    height: 500px;
 }
 nav {
     font-family: "Oswald";
@@ -45,9 +39,28 @@ a {
     text-decoration: none;
 }
 .navigationBarre p {
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 }
 nav a:hover {
     color:white;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:7px;
+    height: 439px;
+}
+.title img {
+    width: 50px;
+}
+h1 {
+    color:white;
+    font-size: 30px;
+}
+h2 {
+    color:white;
+    font-size: 20px;
 }
