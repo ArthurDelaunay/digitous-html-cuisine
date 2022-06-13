@@ -8,22 +8,36 @@
     src: url("../fonts/Oswald/Oswald-VariableFont_wght.ttf");
 }
 
-
-
 /* header */
+body {
+    font-family: "Courgette";
+}
 header {
+    position: relative;
     background-image: url("../img/header.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw;
-    height: 700px;
-    font-family: "Courgette";
+    background-size: cover;
+}
+.opacityBackground {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
 }
 nav {
     font-family: "Oswald";
 }
+nav a {
+    color: grey;
+    text-transform: capitalize;
+}
 .navigationBarre {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
     height: 60px;
     border-bottom: 2px solid white;
 }
@@ -32,4 +46,8 @@ a {
 }
 .navigationBarre p {
     font-size: 30px;
+    color: white;
+}
+nav a:hover {
+    color:white;
 }
