@@ -60,6 +60,8 @@ h2 {
     color:white;
     font-size: 20px;
 }
+/* fin header */
+
 /* main */
 main {
     height: fit-content;
@@ -109,6 +111,7 @@ main a {
     color: black;
 }
 /* fin section articles */
+
 /* aside */
 aside {
     width: fit-content;
@@ -147,51 +150,80 @@ aside input {
 }
 /* aside */
 /* fin main */
+
 /* footer css */
 footer {
     display: flex;
     justify-content: space-around;
     background-color: black;
+    height: fit-content;
     color: white;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 30px;
-}
-
-footer h4 {
+    padding-right: 8%;
+    padding-bottom: 80px;
     text-transform: capitalize;
-    font-size: 20px;
 }
-
+footer h4 {
+    font-size: 18px;
+}
+footer a {
+    font-size: 12px;
+    color:white;
+    font-weight: 100;
+    text-decoration: underline;
+}
+footer h6 {
+    font-size: 11px;
+    padding-bottom: 7px;
+}
+footer input {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    height: 28px;
+    width: 110px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+}
+footer button {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    width: 60px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 3px;
+}
 .sec-f-menus {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
-footer a {
-    color: white;
-    font-weight: 200;
-    text-decoration: underline;
-}
-
 .f-partager img {
     background-color: white;
     padding: 5px;
     border-radius: 2px;
 }
-
 .f-partager ul {
     display: flex;
     flex-direction: row;
     gap: 2px;
 }
-
+.f-partager img {
+    width: 15px;
+    height: 15px;
+}
 .f-categories ul, .f-archives ul {
     font-family: 'Oswald', sans-serif;
     margin-top: 10px;
-    text-transform: capitalize;
+}
+.f-newsletter div {
+    display: flex;
+}
+.f-newsletter {
+    padding-top: 40px;
 }
 /* footer css end */
