@@ -48,6 +48,25 @@ a {
 nav a:hover {
     color:white;
 }
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:7px;
+    height: 439px;
+}
+.title img {
+    width: 50px;
+}
+h1 {
+    color:white;
+    font-size: 30px;
+}
+h2 {
+    color:white;
+    font-size: 20px;
+}
 
 
 
@@ -135,22 +154,3 @@ footer section{
     text-transform: capitalize;
 }
 /* footer css end */
-.title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap:7px;
-    height: 439px;
-}
-.title img {
-    width: 50px;
-}
-h1 {
-    color:white;
-    font-size: 30px;
-}
-h2 {
-    color:white;
-    font-size: 20px;
-}
