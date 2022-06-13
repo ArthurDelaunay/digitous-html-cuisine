@@ -1,12 +1,35 @@
+/* ajout des polices */
+@font-face {
+    font-family: "Courgette";
+    src: url("../fonts/Courgette/Courgette-Regular.ttf");
+}
+@font-face {
+    font-family: "Oswald";
+    src: url("../fonts/Oswald/Oswald-VariableFont_wght.ttf");
+}
+
+
+
 /* header */
 header {
     background-image: url("../img/header.jpg");
     background-repeat: no-repeat;
     background-size: 100vw;
+    height: 700px;
+    font-family: "Courgette";
 }
-header .navigationBarre {
+nav {
+    font-family: "Oswald";
+}
+.navigationBarre {
     display: flex;
     justify-content: space-between;
     height: 60px;
     border-bottom: 2px solid white;
+}
+a {
+    text-decoration: none;
+}
+.navigationBarre p {
+    font-size: 30px;
 }
