@@ -133,20 +133,17 @@ footer h4{
     font-size: 20px;
 }
 
-footer aside{
-    width: 35%;
-}
-
-footer section{
+.sec-f-menus{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-/* footer article{
-
-} */
-
+footer a{
+    color: white;
+    font-weight: 200;
+    text-decoration: underline;
+}
 
 .f-partager img{
     background-color: white;
