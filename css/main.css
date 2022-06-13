@@ -1,29 +1,22 @@
-/* ajout des polices */
-/* main */
-@font-face {
-    font-family: "Courgette";
-    src: url("../fonts/Courgette/Courgette-Regular.ttf");
-}
-@font-face {
-    font-family: "Oswald";
-    src: url("../fonts/Oswald/Oswald-VariableFont_wght.ttf");
-}
+/* ajout des polices *//* main */
 
-/* header */
-/* main */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* header */ /* main */
+
 body {
-    font-family: "Courgette";
+    font-family: 'Courgette', cursive;
 }
 header {
-    position: relative;
     /* CSS : homepage */
     background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
 }
 nav {
-    font-family: "Oswald";
+    display:flex;
+    gap: 20px;
+    font-family: 'Oswald', sans-serif;
 }
 nav a {
     color: grey;
@@ -68,47 +61,80 @@ h2 {
     font-size: 20px;
 }
 main {
-    height: 600px;
+    height: fit-content;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 40px;
 }
+/* section articles */ /*homepage css*/
 main h2 {
     text-align: center;
-    font-family: "Oswald";
+    font-family: 'Oswald', sans-serif;
     font-size: 20px;
     color: black;
     padding: 30px 0;
 }
 main img {
-    width: 25%
+    width: 120px;
 }
-/* section articles */
 .sec-main-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .sec-articles {
-    /* width: 50%; */
     display: flex;
     flex-direction: column;
-}
-aside {
-    width: 30%;
+    gap: 20px;
 }
 .sec-articles article{
    display: flex;
+   
 }
 .sec-articles article p {
-    font-family: "Oswald";
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    padding-top: 5px;
 }
 .sec-articles div {
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
 }
-
-
-
-
-
-
+/* aside */
+aside {
+    width: fit-content;
+    padding-left: 30px;
+}
+aside h4 {
+    text-transform: capitalize;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 7px;
+}
+aside button {
+    width: 170px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: 'Oswald', sans-serif;
+}
+aside ul {
+    display: flex;
+    gap: 15px;
+    padding-top: 10px;
+}
+aside img {
+    width: 15px;
+}
+main a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: black;
+}
 
 
 
@@ -175,7 +201,7 @@ footer a{
 }
 
 .f-categories ul, .f-archives ul{
-    font-family: "Oswald";
+    font-family: 'Oswald', sans-serif;
     margin-top: 10px;
     text-transform: capitalize;
 }
