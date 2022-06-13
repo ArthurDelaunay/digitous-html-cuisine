@@ -60,6 +60,7 @@ h2 {
     color:white;
     font-size: 20px;
 }
+/* main */
 main {
     height: fit-content;
     padding-left: 10%;
@@ -88,8 +89,7 @@ main img {
     gap: 20px;
 }
 .sec-articles article{
-   display: flex;
-   
+   display: flex; 
 }
 .sec-articles article p {
     font-family: 'Oswald', sans-serif;
@@ -102,6 +102,13 @@ main img {
     flex-direction: column;
     padding-left: 20px;
 }
+main a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: black;
+}
+/* fin section articles */
 /* aside */
 aside {
     width: fit-content;
@@ -115,10 +122,11 @@ aside h4 {
 }
 aside button {
     width: 170px;
+    height: 25px;
     text-align: center;
     background-color: white;
     border: 1px solid black;
-    border-radius: 3px;
+    border-radius: 2px;
     font-family: 'Oswald', sans-serif;
 }
 aside ul {
@@ -129,37 +137,18 @@ aside ul {
 aside img {
     width: 15px;
 }
-main a {
+aside input {
     font-family: 'Oswald', sans-serif;
     font-size: 12px;
-    font-weight: 300;
-    color: black;
+    font-weight: 500;
+    width: 157px;
+    padding-left: 7px;
+    height: 19px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* aside */
+/* fin main */
 /* footer css */
-
-footer{
+footer {
     display: flex;
     justify-content: space-around;
     background-color: black;
@@ -171,36 +160,36 @@ footer{
     padding-bottom: 30px;
 }
 
-footer h4{
+footer h4 {
     text-transform: capitalize;
     font-size: 20px;
 }
 
-.sec-f-menus{
+.sec-f-menus {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-footer a{
+footer a {
     color: white;
     font-weight: 200;
     text-decoration: underline;
 }
 
-.f-partager img{
+.f-partager img {
     background-color: white;
     padding: 5px;
     border-radius: 2px;
 }
 
-.f-partager ul{
+.f-partager ul {
     display: flex;
     flex-direction: row;
     gap: 2px;
 }
 
-.f-categories ul, .f-archives ul{
+.f-categories ul, .f-archives ul {
     font-family: 'Oswald', sans-serif;
     margin-top: 10px;
     text-transform: capitalize;
