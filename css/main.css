@@ -51,3 +51,90 @@ a {
 nav a:hover {
     color:white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer css */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 30px;
+}
+
+footer h4{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+footer aside{
+    width: 35%;
+}
+
+footer section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer article{
+    
+}
+
+
+.f-partager img{
+    background-color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.f-partager ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.f-categories ul, .f-archives ul{
+    font-family: "Oswald";
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+/* footer css end */
