@@ -37,12 +37,6 @@ main h2 {
     flex-direction: column;
     padding-left: 20px;
 }
-main a {
-    font-family: 'Oswald', sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    color: black;
-}
 
 .homepage-2{
     justify-content: space-between;

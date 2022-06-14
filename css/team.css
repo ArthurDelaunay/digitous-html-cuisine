@@ -10,29 +10,22 @@ header {
     border-radius: 100%;
 }
 .sec-articles {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 75%;
     padding-top: 30px;
     padding-right: 50px;
     gap: 40px;
 }
 .sec-articles article {
-    display: flex;
     gap: 100px;
-    text-align: center;
-}
-.sec-main-container {
-    display: flex;
 }
 .sec-articles article h4 {
     font-size: 30px;
     padding-bottom: 20px;
 }
-.description {
-    font-family: 'Oswald', sans-serif;
-    font-size: 15px;
+.sec-articles div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
 }
 
 /* fin articles */
