@@ -118,7 +118,8 @@ main a {
 /* fin main
 /* aside */
 aside {
-    width: fit-content;
+    /* width: fit-content; */
+    width: 100px;
     padding-left: 30px;
 }
 aside h4 {

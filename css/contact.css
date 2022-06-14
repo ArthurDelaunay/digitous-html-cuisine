@@ -21,6 +21,7 @@ iframe {width:100%;height:100%;}
   display: flex;
   flex-direction: column;
   padding-top: 30px;
+  padding-left: 40px;
 }
 
 .sec-articles article h3{
