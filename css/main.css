@@ -250,18 +250,31 @@ footer button {
         display: none;
     }
     main {
-        padding: 0;
+        padding: 5%;
     }
     footer {
         flex-direction: column;
         align-items: flex-start;
         padding-left: 15%;
     }
+
+    footer article{
+        padding-bottom: 20px;
+    }
+
     .f-newsletter {
         padding-top: 5px;
     }
     .f-archives {
         padding-top: 5px;
+    }
+
+    .sec-articles article{
+        padding-bottom: 20px;
+    }
+
+    .sec-articles article div{
+        padding-top: 10px;
     }
 }
 /* fin version tablette */
