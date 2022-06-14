@@ -42,6 +42,12 @@ main a {
     font-weight: 300;
     color: black;
 }
+
+.homepage-2{
+    justify-content: space-between;
+}
+
+
 /* fin section articles */
 
 /* responsive */
