@@ -1,0 +1,25 @@
+header {
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../img/team/team.jpg");
+    background-position: center;
+}
+/* main */
+/* articles */
+.profilHead {
+    width: 100px;
+    border: 1 solid white;
+    border-radius: 100%;
+}
+.sec-articles {
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec-articles article {
+    display: flex;
+}
+.sec-main-container {
+    display: flex;
+}
+.sec-articles div {
+    gap:20px;
+}
