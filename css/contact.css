@@ -1,5 +1,13 @@
 
 /* map built in style */
+
+/* built in code to make the map full responsive */
+
+iframe {width:100%;height:100%;}
+
+/* built in code to make the map full responsive end*/
+
+
 .gmap_canvas {overflow:hidden;background:none!important;height:500px;width:800px;}
 
 .mapouter{position:relative;text-align:right;height:500px;width:800px;}
