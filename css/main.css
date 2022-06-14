@@ -11,6 +11,7 @@ header {
     /* CSS : homepage */
     background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/header.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 .menuBurger {
@@ -236,13 +237,7 @@ footer button {
 .hidden {
     display: none;
 }
-
-
-
-
 /* fin about responsive */
-/*css end */
-
 
 /* version tablette */
 @media (max-width: 992px) {
@@ -269,5 +264,21 @@ footer button {
     .f-archives {
         padding-top: 5px;
     }
-
 }
+/* fin version tablette */
+
+/* version mobile */
+@media (max-width: 768px) {
+    .sec-articles article {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-articles article img {
+        width: 100%;
+    }
+    .sec-articles article div {
+        padding-left: 0;
+    }
+}
+/* fin version mobile */
+/*css end */
