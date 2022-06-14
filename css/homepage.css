@@ -9,7 +9,7 @@ main h2 {
     color: black;
     padding: 30px 0;
 }
-main img {
+.photo {
     width: 120px;
 }
 .sec-main-container {

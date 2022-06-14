@@ -98,7 +98,7 @@ aside ul {
     gap: 15px;
     padding-top: 10px;
 }
-aside img {
+.logo {
     width: 15px;
 }
 aside input {
