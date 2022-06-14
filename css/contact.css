@@ -1,0 +1,9 @@
+
+/* map built in style */
+.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:800px;}
+
+.mapouter{position:relative;text-align:right;height:500px;width:800px;}
+
+.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:600px;}
+
+/* map built in style */
