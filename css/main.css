@@ -96,7 +96,7 @@ main img {
     gap: 20px;
 }
 .sec-articles article{
-   display: flex; 
+   display: flex;
 }
 .sec-articles article p {
     font-family: 'Oswald', sans-serif;
