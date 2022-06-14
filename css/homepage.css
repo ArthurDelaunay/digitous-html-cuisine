@@ -1,0 +1,61 @@
+header {
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/header.jpg);
+}
+/* section articles */ /*homepage css*/
+main h2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 30px 0;
+}
+.photo {
+    width: 120px;
+}
+.sec-main-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.sec-articles {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec-articles article{
+   display: flex; 
+}
+.sec-articles article p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    padding-top: 5px;
+}
+.sec-articles div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+main a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: black;
+}
+/* fin section articles */
+
+/* responsive */
+/* version mobile */
+@media (max-width: 768px) {
+    .sec-articles article {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-articles article img {
+        width: 100%;
+    }
+    .sec-articles article div {
+        padding-left: 0;
+    }
+}
+/* fin version mobile */

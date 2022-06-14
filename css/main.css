@@ -8,8 +8,6 @@ body {
     font-family: 'Courgette', cursive;
 }
 header {
-    /* CSS : homepage */
-    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/header.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -117,6 +115,7 @@ main a {
 }
 /* fin section articles */
 
+/* fin main
 /* aside */
 aside {
     width: fit-content;
@@ -142,7 +141,7 @@ aside ul {
     gap: 15px;
     padding-top: 10px;
 }
-aside img {
+.logo {
     width: 15px;
 }
 aside input {
@@ -268,17 +267,6 @@ footer button {
 /* fin version tablette */
 
 /* version mobile */
-@media (max-width: 768px) {
-    .sec-articles article {
-        flex-direction: column;
-        align-items: center;
-    }
-    .sec-articles article img {
-        width: 100%;
-    }
-    .sec-articles article div {
-        padding-left: 0;
-    }
-}
+
 /* fin version mobile */
 /*css end */
