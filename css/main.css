@@ -13,6 +13,10 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.menuBurger {
+    width: 25px;
+    filter: invert(100);
+}
 nav {
     display:flex;
     gap: 20px;
@@ -148,7 +152,7 @@ aside input {
     padding-left: 7px;
     height: 19px;
 }
-/* aside */
+/* fin aside */
 /* fin main */
 
 /* footer css */
@@ -226,4 +230,36 @@ footer button {
 .f-newsletter {
     padding-top: 40px;
 }
-/* footer css end */
+/* footer */
+
+/* about responsive */
+.hidden {
+    display: none;
+}
+
+
+
+
+/* fin about responsive */
+/*css end */
+
+
+/* version tablette */
+@media (max-width: 992px) {
+    nav {
+        display: none;
+    }
+    .menuBurger {
+        display: block;
+    }
+    aside {
+        display: none;
+    }
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+
+}
