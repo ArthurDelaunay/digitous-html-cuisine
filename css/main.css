@@ -43,7 +43,7 @@ a {
 nav a:hover {
     color:white;
 }
-.title{
+.title {
     display: flex;
     align-items: center;
     justify-content: center;
