@@ -142,4 +142,10 @@ header {
     .title h1{
         text-align: center;
     }
+
+   .team-antoine{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
