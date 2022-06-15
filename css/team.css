@@ -43,8 +43,38 @@ header {
 /* fin main */
 
 /* about responsive */
- /* version tablette */
- @media (max-width: 992px) {
+ /* version mobile */
+ @media (max-width: 768px) {
+    .sec-articles{
+        display: flex;
+        flex-direction: column;
+    }
 
+    .sec-articles article{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
  }
  /* fin version tablette*/
+
+/* version tablette */
+
+ /* @media (max-width: 768px) {
+
+    .sec-main-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sec-articles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+ } */
+
+/* version tablette fin*/
