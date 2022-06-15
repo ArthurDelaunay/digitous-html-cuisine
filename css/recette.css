@@ -12,6 +12,10 @@ header {
   margin-bottom: 20px;
 }
 
+.sec-articles{
+  padding-top: 30px;
+}
+
 .recette-top{
   display: flex;
   flex-direction: row;
@@ -122,13 +126,7 @@ header {
   padding: 4px 2px;
 }
 
-
-
-
-
-
-
-
+/* responsive */
 
 @media (max-width: 992px) {
   .recette-images{
@@ -139,9 +137,21 @@ header {
     gap: 10px;
   }
 
+  .recette{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ingrediants{
+    width: 100%;
+    display: flex;
+  }
+
+  .steps{
+    padding-top: 30px;
+  }
   .recette-images div{
     width: 60%;
   }
-
 }
 
