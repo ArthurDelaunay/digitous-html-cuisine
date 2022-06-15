@@ -113,3 +113,27 @@
   left: 0px;
   padding: 4px 2px;
 }
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+  .recette-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .recette-images div{
+    width: 60%;
+  }
+
+}
+
