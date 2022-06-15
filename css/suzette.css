@@ -18,14 +18,21 @@ header {
     color: black;
     font-size: 30px;
     text-transform: capitalize;
-    padding-top: 15px;
+}
+.title h1{
+    backdrop-filter: brightness(30%);
+    padding: 5px 25px;
 }
 .main-articles article p {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
+    padding-top: 15px;
 }
 .main-articles {
     padding-bottom: 40px;
+}
+.main-articles article{
+    padding-top: 30px;
 }
 .team-antoine {
     border-bottom: 1px solid lightgrey;
@@ -119,12 +126,20 @@ header {
 }
 
 
-/* responsive */
-
-@media (max-width: 992px){
-
+.intro p::first-letter{
+    font-size: 50px;
+    line-height: 20px;
+    float: left;
+    color: grey;
+    font-weight: 400;
+    padding-right: 5px;
 }
+
+/* responsive */
 
 @media (max-width: 768px){
 
+    .title h1{
+        text-align: center;
+    }
 }
