@@ -75,12 +75,13 @@
 }
 
 .steps li{
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .steps li p{
   font-family: 'Oswald';
   font-weight: 200;
+  padding-top: 8px;
 }
 
 .recette-images{
