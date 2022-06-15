@@ -117,3 +117,14 @@ header {
     padding-right: 30px;
     filter: invert(50%);
 }
+
+
+/* responsive */
+
+@media (max-width: 992px){
+
+}
+
+@media (max-width: 768px){
+
+}
