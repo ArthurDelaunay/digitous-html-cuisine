@@ -58,8 +58,7 @@ header {
   padding: 5px 20px;
   background-color: grey;
   border-radius: 20px;
-  /* margin: 1px; */
-  font-family: "oswald";
+  font-family: 'Oswald', sans-serif;
   font-weight: 100;
 }
 
@@ -91,7 +90,7 @@ header {
 }
 
 .steps li p{
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   font-weight: 200;
   padding-top: 8px;
 }
@@ -114,7 +113,7 @@ header {
 }
 
 .recette-images p{
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   text-decoration: none;
   position: absolute;
   font-size: 20px;
