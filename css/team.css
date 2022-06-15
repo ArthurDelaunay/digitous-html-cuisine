@@ -4,17 +4,28 @@ header {
 }
 /* main */
 /* articles */
+.sec-main-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
 .profilHead {
     width: 100px;
     border: 1 solid white;
     border-radius: 100%;
 }
 .sec-articles {
+    display: flex;
+    flex-direction: column;
     padding-top: 30px;
     padding-right: 50px;
     gap: 40px;
 }
 .sec-articles article {
+    display: flex;
+    flex-direction: row;
     gap: 100px;
 }
 .sec-articles article h4 {
