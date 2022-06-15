@@ -1,3 +1,11 @@
+.sec-main-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+
+
 .recette-top{
   display: flex;
   flex-direction: row;
@@ -71,6 +79,7 @@
 }
 
 .recette-images{
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -86,11 +95,14 @@
 }
 
 .recette-images p{
+  font-family: 'Oswald';
+  text-decoration: none;
   position: absolute;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 100;
   color: black;
   background-color: rgba(189, 188, 188, 0.509);
-  bottom: 2px;
-  left: 20px;
+  bottom: 4px;
+  left: 0px;
+  padding: 4px 2px;
 }

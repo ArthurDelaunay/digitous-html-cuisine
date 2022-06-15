@@ -16,6 +16,12 @@ iframe {width:100%;height:100%;}
 
 /* map built in style */
 
+.sec-main-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
 
 .sec-articles article {
   display: flex;

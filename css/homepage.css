@@ -13,11 +13,15 @@ main h2 {
 .photo {
     width: 120px;
 }
+
+
 .sec-main-container {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
+
+
 .sec-articles {
     display: flex;
     flex-direction: column;

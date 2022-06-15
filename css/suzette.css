@@ -5,3 +5,9 @@ header {
 .navigationBarre {
     backdrop-filter: brightness(30%);
 }
+
+.sec-main-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
