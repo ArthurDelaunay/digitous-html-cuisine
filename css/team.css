@@ -58,23 +58,3 @@ header {
     }
  }
  /* fin version tablette*/
-
-/* version tablette */
-
- /* @media (max-width: 768px) {
-
-    .sec-main-container{
-        display: flex;
-        justify-content: center;
-    }
-
-    .sec-articles{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
- } */
-
-/* version tablette fin*/
