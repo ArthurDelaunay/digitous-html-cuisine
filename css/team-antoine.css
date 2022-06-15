@@ -1,0 +1,25 @@
+/* header */
+header {
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../img/team/team.jpg");
+    background-position: center;
+}
+/* fin header */
+
+/* main */
+.sec-main-container {
+    padding-top: 20px;
+    display: flex;
+}
+.sec-main-container .photoHead {
+    width: 200px;
+    border: 1 solid white;
+    border-radius: 100%;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.sec-main-container p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
