@@ -1,3 +1,4 @@
+/* header */
 header {
     background-image: url("../img/articles/suzette/suzette-header.jpg");
     background-position: center;
@@ -5,9 +6,114 @@ header {
 .navigationBarre {
     backdrop-filter: brightness(30%);
 }
+/* header */
 
+/* main */
 .sec-main-container {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+}
+.main-articles article h2{
+    color: black;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+.main-articles article p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+.main-articles {
+    padding-bottom: 40px;
+}
+.team-antoine {
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.profilHead {
+    width: 130px;
+    border: 1 solid white;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+.team-antoine h2 {
+    color: black;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+.team-antoine p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 250;
+    font-size: 17px;
+}
+.team-antoine div {
+    width: 50%;
+}
+.comment {
+    padding-top: 50px;
+    padding-left: 22%;
+}
+.comment h3 {
+    text-transform: capitalize;
+}
+.comment input {
+    width: 70%;
+    height: 30px;
+    margin-top: 12px;
+    margin-bottom: 17px;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+}
+/* .commentinput .boxBigger {
+    height: 100px;
+} */
+.feedbacks {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.feedbacks h2 {
+    color: black;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+.good img {
+    width: 80px;
+    height: 80px;
+    padding-right: 30px;
+}
+.good {
+    display: flex;
+}
+.bad {
+    display: flex;
+}
+.feedbacks h3 {
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.feedbacks p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 250;
+    font-size: 17px;
+    line-height: 25px;
+}
+.feedbacks article {
+    padding-bottom: 20px;
+}
+.bad img {
+    width: 80px;
+    height: 80px;
+    padding-left: 110px;
+    padding-right: 30px;
+    filter: invert(50%);
 }
