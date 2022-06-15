@@ -78,7 +78,6 @@ main a {
     font-weight: 300;
     color: black;
 }
-
 /* fin section articles */
 
 /* aside */
@@ -86,6 +85,7 @@ aside {
     /* width: fit-content; */
     width: 100px;
     padding-left: 30px;
+    padding-right: 50px;
 }
 aside h4 {
     text-transform: capitalize;
