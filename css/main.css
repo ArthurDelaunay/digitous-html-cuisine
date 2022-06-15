@@ -102,6 +102,10 @@ aside button {
     border-radius: 2px;
     font-family: 'Oswald', sans-serif;
 }
+aside button:hover{
+    color:white;
+    background-color: black;
+}
 aside ul {
     display: flex;
     gap: 15px;
